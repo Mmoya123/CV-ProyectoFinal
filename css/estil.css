@@ -1,0 +1,119 @@
+body {
+
+    background-color: rgb(58, 237, 237);
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: slateblue;
+}
+
+
+p {
+    font-size: 2rem;
+}
+
+section#hero {
+
+background-color: rgb(191, 214, 234);
+
+
+}
+
+section#hero  h2{
+
+    font-size: 1rem;
+    
+}
+
+section#hero  h3{
+
+    font-size: 1rem;
+    
+}
+
+section#hero  h4{
+
+    font-size: 1rem;
+    
+}
+
+section#hero  h5{
+
+    font-size: 1rem;
+    
+}
+
+
+h3 {
+    margin-top: 10px
+    margin-bottom: 20px;
+}
+
+p {
+    familia tipográfica: 'Roboto', sans-serif;
+    border: 3px solid blueviolet;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: rgb(0, 119, 255);
+    width: 300PX;
+}
+
+/**
+CSS es un lenguaje de hoja deestilos, esta es una hoja externa
+*/
+
+h1 {
+   font-weight: bold;
+   color: rgb(222, 15, 143);
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+#projets {
+
+    color: rgb(125, 167, 243);
+    font-size: 23px;
+    border: 0ch;
+
+}
+
+
+
+.projets-detail img {
+    width: 300%;
+}
+
+
+/**
+Responsive grid-view: Da el hancho de pagina, en este caso es el parrafo
+p hancho 600 y flotenado a la izquierda.
+p {
+    width: 600%;
+    float: left;
+  }
+
+
+*/
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  p {
+    width: 600%;
+    float: left;
+  }
