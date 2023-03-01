@@ -40,11 +40,18 @@ section#hero  h4{
 
     font-size: 1rem;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 section#hero  h5{
 
     font-size: 1rem;
+    
+    
     
 }
 
@@ -80,6 +87,7 @@ section {
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
+    
   }
 
 #projets {
@@ -117,3 +125,24 @@ p {
     width: 600%;
     float: left;
   }
+
+  header {
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aquamarine;
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  nav ul li{
+    
+    margin-bottom:  20px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+}
